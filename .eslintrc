@@ -6,11 +6,11 @@
     "kentcdodds/prettier"
   ],
   "plugins": [
-    "eslint-plugin-local-rules"
+    "eslint-plugin-kcd-egghead"
   ],
   "rules": {
     "no-console": "off",
-    "local-rules/no-console": ["error", {allowedMethods: ['info']}],
+    "kcd-egghead/no-console": ["error", {allowedMethods: ['info']}],
     "import/prefer-default-export": "off"
   }
 }
