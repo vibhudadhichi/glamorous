@@ -2216,6 +2216,10 @@ eslint-plugin-jsx-a11y@^4.0.0:
     jsx-ast-utils "^1.0.0"
     object-assign "^4.0.1"
 
+eslint-plugin-local-rules@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-local-rules/-/eslint-plugin-local-rules-0.0.2.tgz#cae9c9a1eeac5f0747d82bc052f29ad768189e4f"
+
 eslint-plugin-react@^6.10.3:
   version "6.10.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-6.10.3.tgz#c5435beb06774e12c7db2f6abaddcbf900cd3f78"
@@ -3384,11 +3388,11 @@ istanbul-api@^1.1.1:
     mkdirp "^0.5.1"
     once "^1.4.0"
 
-istanbul-lib-coverage@^1.0.1, istanbul-lib-coverage@^1.0.2:
+istanbul-lib-coverage@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/istanbul-lib-coverage/-/istanbul-lib-coverage-1.0.2.tgz#87a0c015b6910651cb3b184814dfb339337e25e1"
 
-istanbul-lib-coverage@^1.1.0:
+istanbul-lib-coverage@^1.0.2, istanbul-lib-coverage@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/istanbul-lib-coverage/-/istanbul-lib-coverage-1.1.0.tgz#caca19decaef3525b5d6331d701f3f3b7ad48528"
 
@@ -5340,7 +5344,7 @@ request-promise@^4.1.1:
     request-promise-core "1.1.1"
     stealthy-require "^1.0.0"
 
-request@2.79.0, request@^2.72.0, request@^2.74.0, request@^2.78.0:
+request@2.79.0, request@^2.72.0, request@^2.74.0, request@^2.78.0, request@^2.79.0:
   version "2.79.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.79.0.tgz#4dfe5bf6be8b8cdc37fcf93e04b65577722710de"
   dependencies:
@@ -5365,7 +5369,7 @@ request@2.79.0, request@^2.72.0, request@^2.74.0, request@^2.78.0:
     tunnel-agent "~0.4.1"
     uuid "^3.0.0"
 
-request@^2.79.0, request@^2.81.0:
+request@^2.81.0:
   version "2.81.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.81.0.tgz#c6928946a0e06c5f8d6f8a9333469ffda46298a0"
   dependencies:
