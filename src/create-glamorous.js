@@ -97,11 +97,12 @@ export default function createGlamorous(splitProps) {
             theme,
             this.context,
           )
+          const debugClassName = cleanClassname(GlamorousComponent.displayName)
 
           return React.createElement(GlamorousComponent.comp, {
             ref: props.innerRef,
             ...toForward,
-            className: fullClassName,
+            className: `${fullClassName} ${debugClassName}`,
           })
         }
       }
@@ -189,4 +190,8 @@ export default function createGlamorous(splitProps) {
       comp :
       comp.displayName || comp.name || 'unknown'
   }
+}
+
+function cleanClassname(className) {
+  return className.replace(/ /g, '-').replace(/[^A-Za-z0-9\-_]/g, '_')
 }

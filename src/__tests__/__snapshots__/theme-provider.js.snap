@@ -23,11 +23,11 @@ exports[`merges nested themes 1`] = `
     }
   >
     <div>
-      <glamorous(div)>
+      <glamorous.div>
         <div
-          className="css-mhpxxj"
+          className="css-mhpxxj glamorous_div"
         />
-      </glamorous(div)>
+      </glamorous.div>
       <ThemeProvider
         theme={
           Object {
@@ -35,11 +35,11 @@ exports[`merges nested themes 1`] = `
           }
         }
       >
-        <glamorous(div)>
+        <glamorous.div>
           <div
-            className="css-19cobm9"
+            className="css-19cobm9 glamorous_div"
           />
-        </glamorous(div)>
+        </glamorous.div>
       </ThemeProvider>
     </div>
   </ThemeProvider>
@@ -54,7 +54,7 @@ exports[`renders a component with theme 1`] = `
 }
 
 <div
-  class="css-1fyph4i"
+  class="css-1fyph4i glamorous_div"
 />
 `;
 
@@ -103,11 +103,11 @@ exports[`with theme prop of padding 10px 1`] = `
       }
     }
   >
-    <glamorous(div)>
+    <glamorous.div>
       <div
-        className="css-1p841yy"
+        className="css-1p841yy glamorous_div"
       />
-    </glamorous(div)>
+    </glamorous.div>
   </ThemeProvider>
 </Parent>
 `;
@@ -127,11 +127,11 @@ exports[`with theme prop of padding 20px 1`] = `
       }
     }
   >
-    <glamorous(div)>
+    <glamorous.div>
       <div
-        className="css-1e41o48"
+        className="css-1e41o48 glamorous_div"
       />
-    </glamorous(div)>
+    </glamorous.div>
   </ThemeProvider>
 </Parent>
 `;

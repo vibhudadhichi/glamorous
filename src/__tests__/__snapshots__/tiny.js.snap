@@ -8,7 +8,7 @@ exports[`should pass glam object prop 1`] = `
 }
 
 <div
-  class="css-1468hcz"
+  class="css-1468hcz glamorous_div_"
   id="hey-there"
 />
 `;

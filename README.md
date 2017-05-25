@@ -492,10 +492,13 @@ const myGlamorousComponentFactory = glamorous(
 )
 ```
 
+> Note: the `displayName` is also included in the className that your components
+> are given which makes the development experience a bit nicer.
+
 And now all components created by the `myGlamorousComponentFactory` will have
 the `displayName` of `MyGlamorousComponent`.
 
-There is also a [babel plugin](https://www.npmjs.com/package/babel-plugin-glamorous-displayname) that can monkey-patch the `displayName` onto
+There is also a [babel plugin][babel-displayname] that can monkey-patch the `displayName` onto
 the components that you create from your component factory.
 
 
@@ -892,6 +895,10 @@ const MyResponsiveDiv = glamorous.div({
 ```
 </details>
 
+## Related projects
+
+- [babel-plugin-glamorous-displayname][babel-displayname]: Automatically adds a `displayName` to your glamorous components for a better debugging experience.
+
 ## Users
 
 Who uses `glamorous`? See [other/USERS.md](https://github.com/paypal/glamorous/blob/master/other/USERS.md) and add yourself if you use `glamorous`!
@@ -1019,3 +1026,4 @@ MIT
 [resolve-alias]: https://webpack.js.org/configuration/resolve/#resolve-alias
 [glamorous-native]: https://github.com/robinpowered/glamorous-native
 [typescript-usage]: https://github.com/paypal/glamorous/blob/master/other/TYPESCRIPT_USAGE.md
+[babel-displayname]: https://www.npmjs.com/package/babel-plugin-glamorous-displayname

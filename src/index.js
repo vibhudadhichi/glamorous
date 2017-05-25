@@ -18,7 +18,7 @@ const glamorous = createGlamorous(splitProps)
 Object.assign(
   glamorous,
   domElements.reduce((getters, tag) => {
-    getters[tag] = glamorous(tag)
+    getters[tag] = glamorous(tag, {displayName: `glamorous.${tag}`})
     return getters
   }, {}),
 )

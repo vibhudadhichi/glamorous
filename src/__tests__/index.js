@@ -179,9 +179,10 @@ test('falls back to `unknown` if name cannot be inferred', () => {
 
 test('allows you to specify a displayName', () => {
   const MyComp = glamorous(props => <div {...props} />, {
-    displayName: 'HiThere',
+    displayName: 'Hi There',
   })()
-  expect(MyComp.displayName).toBe('HiThere')
+  expect(MyComp.displayName).toBe('Hi There')
+  expect(render(<MyComp />)).toMatchSnapshotWithGlamor()
 })
 
 test('will not forward `color` to a div', () => {
